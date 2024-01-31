@@ -1,8 +1,8 @@
-print("Pick a number: ")
-num1 = input()
-print("Pick another number: ")
-num2 = input()
+height = input('input your height in feet:')
 
-SUM = int(num1) + int(num2)
-
-print(SUM)
+if int(height) > 6:
+    print('You are above 6 feet')
+elif int(height) == 6:
+    print('You are 6 feet')
+else:
+    print('You are less than 6 feet')
